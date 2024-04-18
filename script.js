@@ -122,7 +122,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
 // Show btns
 const displayMenuBtns = function () {
-  // Get common categories, i.e: all, breakfast, lunch and shakes.
+  // Get common categories, i.e: all, breakfast, lunch, shakes and dinner.
   const categories = menu.reduce(
     (values, item) => {
       if (!values.includes(item.category)) {
